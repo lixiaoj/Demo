@@ -45,7 +45,7 @@ public class DigitsDemoTests {
 
 	@Test
 	public void testMuti() {
-		int[] digits = {2,3,4};
+		int[] digits = {9,9};//{2,3,4};
 		System.out.print("Output:");
 		List<String> list = digitsDemo.letterCombinations(digits);
 		for (String al : list) {
@@ -55,10 +55,10 @@ public class DigitsDemoTests {
 	
 	
 	@Test
-	public void testOneToNi() {
-		int[] digits = {2,99};
+	public void testLetterCombinationsStageTwo() {
+		int[] digits = {2,92};
 		System.out.print("Output:");
-		List<String> list = digitsDemo.letterCombinations(digits);
+		List<String> list = digitsDemo.letterCombinationsStageTwo(digits);
 		for (String al : list) {
 			System.out.print(al+" ");
 		}
